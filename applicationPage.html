@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en-ie">
+<head>
+    <meta charset="utf-8">
+    <title>Student Application</title>
+	 <link rel="stylesheet" href="stylepage.css">
+</head>
+<body>
+		
+		<div class="header">
+				<h1>Carlow Music School</h1>
+				<p>Student Application Page</p>
+			</div>
+			<div class="navbar">
+				<a href="index.php">Home Page</a>
+				<a href="applicationPage.html">Application page</a>
+				<a href="classInfo.php">Classes info</a>
+				<a href="teacherInfo.php">Teachers info</a>
+				
+				
+				
+			</div>
+		<h1>This is the student application page. Please ensure that you have all the information you need from the other pages before attempting to apply.</h1>
+		<div class="form">
+		<form  action="insert.php" method="post">
+			<p>
+				<label for="firstName">First Name:</label>
+				<input type="text" name="first_name" id="firstName">
+			</p>
+			<p>
+				<label for="lastName">Last Name:</label>
+				<input type="text" name="last_name" id="lastName">
+			</p>
+			<p>
+				<label for="emailAddress">Email Address:</label>
+				<input type="text" name="email" id="emailAddress">
+			</p>
+			<p>
+				<label for="classid">Chosen class id:</label>
+				<input type="number" name="classid" id="classid" min="101" max="104">
+			</p>
+			<input type="submit" value="Submit">
+		</form>
+		</div>
+		
+		<h1>IMPORTANT NOTE! Applying here does not guarantee you a place in our classes. Duplicate applications may be ignored or discarded, as will applications without a valid email.<h1> 
+		<div class="footer">
+			<h3>Thank you for visiting our website.</h3>
+		</div>
+		
+</body>
+</html>

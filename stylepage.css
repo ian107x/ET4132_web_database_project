@@ -1,0 +1,62 @@
+		.header {
+			padding: 30px;
+			text-align: center;
+			background-color: green;
+			color: orange;
+			width: 100%;
+		}
+		.navbar{
+			overflow: hidden;
+			background-color: orange;
+			height: 40px;
+			
+		}
+		
+		.navbar a:link {
+			
+			font: arial;
+			float: left;
+			display: block;
+			text-align: center;
+			text-decoration: none;
+			color: black;
+			height: 40px;
+			padding: 14px 20px;
+			
+		}
+		.navbar a:hover {
+			background-color: black;
+			color: white;
+        }
+		
+		.footer{
+			position: fixed;
+			
+			bottom: 0;
+			width: 100%;
+			
+			padding: 1px;
+			float: bottom;
+			text-align: center;
+			background-color: green;
+			color: orange;
+		}
+		p{
+			border: 2px solid-black;
+		}
+		
+		body{
+			text-align: center;
+			background-image: url('musicBackground.jpg');
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+		}
+		
+		
+		
+		
+		
+		
+		
+		
